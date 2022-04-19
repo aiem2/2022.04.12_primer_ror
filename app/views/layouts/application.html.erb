@@ -11,9 +11,14 @@
   </head>
 
   <body>
-    <a href="<%= pages_index_path %>"> Índice</a>
-    <a href="<%= pages_about_path %>"> Sobre nosotros</a>
+    <%= image_tag 'logo.png', id:'logo', alt:'Logo Orbo Chile', height:'50vh', class:'barra'%>
+    <br>
+    <p class='barra' id='menu'>
+      <a href="<%= pages_index_path %>"> Índice</a>
+      <a href="<%= pages_about_path %>"> Sobre nosotros</a>
+      <a href="<%= pages_team_path %>"> Nuestro Equipo</a>
+    </p>
     <%= yield %>
-    <p> Orbo Chile </p>
+    <h5> Orbo Chile </h5>
   </body>
 </html>

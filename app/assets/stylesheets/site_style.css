@@ -1,8 +1,11 @@
-body{
-    background: black;
-    color: white;
-    }
-    
+.barra{
+    margin-left:50vw;
+}
+
 img{
     max-width: 200px;
     }
+
+#menu{
+    margin-left:45vw;
+}
